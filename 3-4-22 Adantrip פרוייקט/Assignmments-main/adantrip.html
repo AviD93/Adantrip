@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!--                     Nav-Container                 -->
+    <nav class="container-fluid bg-dark">
+        <div class="container nav-container">
+            <div class="nav-style row align-items-center">
+                <!--                  Nav Left Side Logo Adantrip and Hamburger                 -->
+                <div class="nav-left-side col-md-1 d-flex justify-content-between align-items-center">
+                    <h4>Adantrip</h4>
+                    <!-- nav hamburger open in phone mode java script -->
+                    <!-- menu -->
+                    <i class="fa-solid fa-bars d-md-none d-flex">
+              <div class="navbar navbar-light fixed-top bg-black">
+                <div class="container-fluid">
+                  <!-- logo -->
+                  <h1 class="navbar-brand text-white font-monospace fs-1">
+                    <strong> Adantrip </strong>
+                  </h1>
+                  <button
+                    class="navbar-toggler bg-light"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel"
+                  >
+                    <div class="offcanvas-header">
+                      <h5
+                        class="offcanvas-title text-black"
+                        id="offcanvasNavbarLabel"
+                      >
+                      <!--     title menu    -->
+                        Adantrip
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close text-danger"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <!--                  five links                        -->
+                    <div class="offcanvas-body">
+                      <ul
+                        class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                      >
+                        <hr class="text-black" />
+                        <!-- hotels -->
+                        <li class="nav-item">
+                          <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="#"
+                            >Hotels</a
+                          >
+                        </li>
+                        <hr class="text-black" />
+                        <!-- rooms -->
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Rooms</a>
+                        </li>
+                        <!-- flight -->
+                        <hr class="text-black" />
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Flights</a>
+                        </li>
+                        <!-- cars -->
+                        <hr class="text-black" />
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Cars</a>
+                        </li>
+                        <!-- experiences -->
+                        <hr class="text-black" />
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Experiences</a>
+                        </li>
+                        <hr class="text-black" />
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </i>
+                    <!-- END of nav bar java script -->
+                </div>
+                <!--                  Nav Five Links               -->
+                <div class="nav-links col-md-8 d-none d-md-flex gap-3">
+                    <a class="text-secondary text-decoration-none ms-md-2" href="#">Hotels</a>
+                    <a class="text-secondary text-decoration-none" href="#">Rooms</a>
+                    <a class="text-secondary text-decoration-none" href="#">Flights</a>
+                    <a class="text-secondary text-decoration-none" href="#">Cars</a>
+                    <a class="text-secondary text-decoration-none" href="#">Experiences</a
+            >
+          </div>
+          <!--                   Nav Right Side Icons-Text                   -->
+          <div class="nav-right-side col-md-3 d-flex align-items-center">
+            <ul
+              class="nav-right-side-icons d-flex list-unstyled gap-3 d-none d-md-flex mt-md-3 ms-md-5"
+            >
+              <li>USD</li>
+              <li>
+                <img
+                  src="./Precourse Assignment/images/united-states.png"
+                  width="20px"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="rounded-circle bg-light"
+                  src="./Precourse Assignment/images/use.png "
+                  width="20px"
+                  alt=""
+                />
+              </li>
+              <li>My Account</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--End Nav-->
+   <!-- START header container -->
+   <header>
+    <div class="header-container container d-flex mt-md-4">
+      <!-- all left header side  -->
+        <div class="col-8 left-header">
+          <!-- Top left header -->
+          <div class="top-left-header d-md-flex justify-content-between">
+            <!-- top left header text -->
+              <div class="top-left-text">
+                <p class="fs-6">Buenos Aires <i class="fa-solid fa-arrow-right-long"></i> Ile de France</p>
+                <p class="fs-6">Round Trip, Economy, 1 passenger</p>
+                <p>Depart: Aug 15, 2019 <br>
+                  Return: Aug 16, 2019
+                </p>
+                <!-- top left header link -->
+                <a class="text-decoration-none" href="#">FLIGHT DEATILS <i class="fa-solid fa-angle-down"></i>
+                </a>
+
+                </div>
+                <!-- top left header img  -->
+                <div class="top-left-img d-none d-md-flex">
+                    <img width="100px" src="./Precourse Assignment/images/iberia.svg" alt="">
+                </div>
+            </div>
+            <!-- START bottom left header -->
+            <div class="bottom-left-header d-flex flex-column d-md-table-row ">
+                <hr class="bg-secondary ">
+                <!-- bottom left header text -->
+                <h4>Enter Passenger Deatils</h4>
+                <p>Passenger 1</p>
+                <!-- bottom left header inputs -->
+                <input class="p-2" type="datetime-local" name="" id="">
+                <select class="p-2 ms-md-4 mt-md-4" name="" id="g">
+                <option value="">Gender</option>
+                <option value="">male</option>
+                <option value="">Female</option>
+            </select>
+                <input class="p-2" type="text" placeholder="First name">
+                <input class="p-2 ms-md-4 mt-md-4 input" type="text" placeholder="Last name">
+                <input class="p-2" type="text" placeholder="Passport serial">
+                <select class="p-2 ms-md-4 mt-md-4" name="citizinship" id="">
+              <option value="">Citizenship</option>
+              <option value="">Tel Aviv</option>
+              <option value="">Haifa</option>
+              <option value="">Beer Sheva</option>
+            </select>
+                <hr class="bg-secondary">
+            </div>
+        </div>
+        <!-- START right header -->
+        <div class="col-4 right-header d-none d-md-flex ">
+            <!-- right header all 3 boxeSs -->
+            <div class="right-header-box">
+                <!-- right header box1 -->
+                <div class="box1 p-2">
+                    <h6>Booking Summary</h6>
+                    <p>Round trip economy 1 passenger</p>
+                    <p>Depart:Aug 15 2019</p>
+                    <p>Depart:Aug 16 2019</p>
+                </div>
+                <!-- right header box2 -->
+                <div class="box2 p-2">
+                    <h6>Charges</h6>
+                    <div class="d-flex justify-content-between">
+                        <p>1 Passenger <br>Economy</p>
+                        <p class="text-dark"><strong>$1907.68</strong></p>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <p>Total:</p>
+                        <p class="text-dark"><strong>$1907.68</strong></p>
+                    </div>
+                </div>
+                <!-- right header box 3 -->
+                <div class="box3 p-2  ">
+                    <h6><i class="fa-solid fa-check text-danger"></i> Mange your booking!</h6>
+                    <p>your in control in of your booking no regertion required</p>
+                    <h6><i class="fa-solid fa-check text-danger"></i> Customer support available 24/7 worlwide!</h6>
+                    <p>Website and customer support in englsih and onther 41 language</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        </header>
+        <!-- END header -->
+        <!-- START main -->
+
+        <main>
+            <!-- START main container -->
+            <div class="container main-container d-md-flex">
+                <!-- left main -->
+                <div class="col-8 left-main">
+                    <!-- left main text -->
+                    <div class="left-main-text">
+                        <h4>Enter Billing Information</h4>
+                        <p>Billing Adress</p>
+                        <!-- left main inputs -->
+                        <div class="left-main-input">
+                            <input class="p-2" type="text" placeholder="Street (line 1)">
+                            <input class="p-2" type="text" placeholder="Street (line 2)">
+                            <input class="p-2 mt-md-4" type="text" placeholder="Postal Code">
+                            <input class="p-2" type="text" placeholder="City">
+                            <input class="p-2 mt-md-4" type="text" placeholder="State/region">
+                            <select class="p-2 mt-5 mt-md-4 " name="" id="" style="width: 45%;">
+           <option value="">Select Country</option>
+           <option value="">Ethiopia</option>
+           <option value="">Israel</option>
+           <option value="">Brszil</option>
+         </select>
+                            <p class="mt-3">Card Details</p>
+                            <input class="p-2" type="text" placeholder="name on card">
+                            <input class="p-2" type="password" name="" id="" placeholder="Credit/Debit Card Number">
+                            <!-- the date input and all card imgs -->
+                            <div class="input-date-card-brand row">
+                                <div class="input-date col-md">
+                                    <input class="p-2 mt-md-4" style="width: 93%;" type="datetime-local" name="" id="">
+                                </div>
+                                <!-- all card imgs  -->
+                                <div class="card-brand text-md-end text-end mt-4 d-md-flex col-md gap-2 align-items-center justify-content-start">
+                                    <img class="" src="./Precourse Assignment/images/mastercard.png" height="29px" alt="">
+                                    <img src="./Precourse Assignment/images/Visa.png" height="27px" alt="">
+                                    <img src="./Precourse Assignment/images/Visa-electronic.png" height="28px" alt="">
+                                    <img src="./Precourse Assignment/images/discover new.png" height="29px" alt="">
+                                    <img class="" src="./Precourse Assignment/images/maestro.png" height="40px" alt="">
+                                    <img class="" src="./Precourse Assignment/images/AE.png" height="40px" alt="">
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- left main total price and big button -->
+                            <div class="left-main-total d-md-flex justify-content-between">
+                                <!-- left main total price text -->
+                                <div class="left-main-total-text">
+                                    <h6>Total:</h6>
+                                    <P>By clicking book now button you agree with terms and condilitionals and money back guam</P>
+                                </div>
+                                <!-- left main total price number -->
+                                <div class="left-main-number text-md-end">
+                                    <h1>$1907.68</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- left main big button -->
+                            <button class="total-button mt-md-3">
+         BOOK NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- END left-main -->
+                <!-- START right-main -->
+                <div class="col-4 right-main">
+                    <!-- start right main boxs -->
+                    <div class="right-main-box">
+                        <!--  right main box 1-->
+                        <div class="box1 p-2 d-md-none">
+                            <h6>Booking Summary</h6>
+                            <p>Round trip economy 1 passenger</p>
+                            <p>Depart:Aug 15 2019</p>
+                            <p>Depart:Aug 16 2019</p>
+                        </div>
+                        <!-- right main box 2 -->
+                        <div class="box2 p-2 d-md-none">
+                            <h6>Charges</h6>
+                            <div class="d-flex justify-content-between">
+                                <p>1 Passenger <br>Economy</p>
+                                <p><strong>$1907.68</strong></p>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <p>Total</p>
+                                <p><strong>$1907.68</strong></p>
+                            </div>
+                        </div>
+                        <div class="box3 p-2 d-md-flex flex-md-column ms-md-4" style="margin-top: 486px; border: 1px solid gray;">
+                            <h6><i class="fa-solid fa-check text-danger"></i> Mange your booking!</h6>
+                            <p>your in control in of your booking no regertion required</p>
+                            <h6><i class="fa-solid fa-check text-danger"></i> Customer support available 24/7 worlwide!</h6>
+                            <p>Website and customer support in englsih and onther 41 language</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--                  END MAIN                          -->
+        <!--                Footer Container                  -->
+        <footer class="footer">
+            <!--            Start Footer                 -->
+            <div class="footer-container container-fluid text-center text-md-start p-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <!--                  Footer Left Side            -->
+                        <div class="footer-left-side col-md-8 row justify-content-around align-items-center">
+                            <div class="adantrip-and-text col-md-5 row">
+                                <!--           Logo With Paragraph      -->
+                                <h1 class="footer-logo text-secondary">Adantrip</h1>
+                                <div class="footer-first-text text-secondary">
+                                    <p>
+                                        Pellentesque quam suscipit non apdent torquent commodo curae ut aliquet augue tortor cubilia lobortis sodales
+                                    </p>
+                                </div>
+                                <div class="footer-second-text text-secondary">
+                                    <p>
+                                        Suscipit risus varius torquent aptent velit felis sem himenaeos lacus fermentum potenti facilisi felis vulputate
+                                    </p>
+                                </div>
+                            </div>
+                            <!--                 Travel Mate With List            -->
+                            <div class="travel-mate-list col-md-3">
+                                <h5>Travel Mate</h5>
+                                <ul class="color-li list-unstyled text-secondary">
+                                    <li>About Travel Mate</li>
+                                    <li>Mobile App</li>
+                                    <li>Customer Support</li>
+                                    <li>Advertising</li>
+                                    <li>Jobs</li>
+                                    <li>Privacy Policy</li>
+                                    <li>Terms of Use</li>
+                                </ul>
+                            </div>
+                            <!--                Explore With List              -->
+                            <div class="explore-list col-md-3">
+                                <h5>Explore</h5>
+                                <ul class="color-li list-unstyled text-secondary">
+                                    <li>Countries</li>
+                                    <li>Regions</li>
+                                    <li>Cities</li>
+                                    <li>Districs</li>
+                                    <li>Airports</li>
+                                    <li>Hotels</li>
+                                    <li>Places of Interest</li>
+                                </ul>
+                            </div>
+                            <!--                Book With List              -->
+                            <div class="book-list col-md-1">
+                                <h5>Book</h5>
+                                <ul class="color-li list-unstyled text-secondary">
+                                    <li>Apartments</li>
+                                    <li>Resorts</li>
+                                    <li>Vilias</li>
+                                    <li>Hostels</li>
+                                    <li>B&Bs</li>
+                                    <li>Guesthous</li>
+                                    <li>HotelChain</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--                Footer Right Side Image                -->
+                        <div class="footer-right-side col-md-4 ms-md-4 justify-content-end row text-sm-start align-items-center justify-content-center">
+                            <!-- <img class="d-flex-sm " src="images/image-with-input.jpg" alt=""> -->
+                            <h5 class="text-white">Save up to 50% off your next trip</h5>
+                            <p class="text-white">Subscribe to unlock our secret deals</p>
+                            <input class="p-3" type="text" placeholder="Type your e-mail here" />
+                            <button class="text-white p-3">GET DEALS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                End Footer Black background              -->
+            <div class="container-fluid end-footer-black">
+                <div class="container end-footer text-muted">
+                    <div class="row">
+                        <!--                 End Footer Left Side                    -->
+                        <div class="end-footer-left-side col-md-8 text-md-start text-center p-md-2">
+                            <p>
+                                Copyright <i class="fa-solid fa-copyright"></i> 2018
+                                <strong class="text-white">Adantrip</strong>. Allright reseved.
+                            </p>
+                        </div>
+                        <!--                  End Footer Right Side                    -->
+                        <div class="end-footer-right-side col-md-4 d-md-flex gap-md-4 justify-content-md-end text-center p-md-3 d-flex-md-none d-flex justify-content-evenly">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-solid fa-g"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--                           End Footer                       -->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+.footer {
+    .footer-container {
+        background-color: rgb(233, 229, 229);
+        .footer-right-side {
+            img {
+                width: 100%;
+            }
+        }
+        .footer-right-side {
+            background-image: url('/Assignmments-main/loding/airplane.jpg');
+            background-size: cover;
+            background-blend-mode: screen;
+            background-color: black;
+            color: white;
+            button {
+                background-color: rgb(219, 95, 46);
+                width: 40%;
+                font-weight: bold;
+                border: none;
+            }
+        }
+    }
+    .end-footer-black {
+        background-color: rgb(44, 39, 39);
+    }
+}
+
+//madia query//@at-root
+@media screen and (max-width:415px) {
+    .footer-container {
+        margin-top: 1032px;
+        .footer-logo {
+            font-size: 62px;
+        }
+    }
+}

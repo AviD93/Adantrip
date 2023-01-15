@@ -1,0 +1,16 @@
+.nav-container {
+    height: 70px;
+    // background-color: rgb(44, 39, 39);
+    color: rgb(230, 219, 219);
+    .container {
+        .nav-style {
+            height: 50px;
+            .nav-left-side {
+                height: 62px;
+            }
+            .nav-right-side {
+                height: 70px
+            }
+        }
+    }
+}

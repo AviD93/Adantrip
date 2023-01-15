@@ -1,0 +1,90 @@
+// start main container
+.main-container {
+    height: 715px;
+    // left main height
+    .left-main {
+        height: 600px;
+        //  all inputs in the left main
+        .left-main-input {
+            input {
+                width: 45%;
+            }
+            .left-main-total {
+                height: 100px;
+                //   left main total price text
+                .left-main-total-text {
+                    width: 45%;
+                }
+                //   left main total price number
+                .left-main-number {
+                    width: 50%;
+                }
+            }
+        }
+        .total-button {
+            color: white;
+            background-color: rgb(236, 123, 17);
+            width: 100%;
+            height: 50px;
+            border: none;
+        }
+    }
+    .right-main {
+        height: 600px;
+    }
+}
+
+p {
+    color: gray;
+}
+
+// media quary////
+@media screen and (max-width:415px) {
+    .left-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .left-main-text {
+            margin-top: 64px;
+        }
+        .left-main-total-text {
+            width: 100%;
+        }
+        .total-button {
+            margin-top: 111px;
+        }
+        .left-main-input {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            input {
+                width: 100% !important;
+                margin-top: 15px;
+            }
+            select {
+                width: 100% !important;
+            }
+        }
+    }
+    .right-main {
+        width: 100%;
+        .right-main-box {
+            margin-top: 317px;
+            .box1 {
+                height: 379px;
+                h6 {
+                    height: 235px;
+                    display: flex;
+                    align-items: end;
+                }
+            }
+            .box2 {
+                border: 1px solid gray;
+            }
+            .box3 {
+                margin-top: 30px !important;
+                height: 211px;
+            }
+        }
+    }
+}
